@@ -21,11 +21,7 @@ public class GUI extends JFrame {
     private Game game;
     private JLabel lblHI;
     private int but1=0,but2=0,but3=0,but4=0;
-
-
-    /**
-     * Launch the application.
-     */
+    
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -54,9 +50,6 @@ public class GUI extends JFrame {
         btnSubmit.setEnabled(true);
     }
 
-    /**
-     * Create the frame.
-     */
     public GUI() {
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -205,7 +198,7 @@ public class GUI extends JFrame {
         contentPane.add(verticalBox);
 
         lblHI = new JLabel("H - I - N - T");
-        lblHI.setFont(new Font("Century Gothic", Font.BOLD, 58));
+      //  lblHI.setFont(new Font("Century Gothic", Font.BOLD, 58));
         verticalBox.add(lblHI);
     }
 }
