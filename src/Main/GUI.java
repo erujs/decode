@@ -22,7 +22,6 @@ public class GUI extends JFrame {
     private JLabel lblHI;
     private int but1=0,but2=0,but3=0,but4=0;
 
-
     /**
      * Launch the application.
      */
@@ -79,7 +78,8 @@ public class GUI extends JFrame {
                 enableButtons();
                 button.setText(""+but1); button_1.setText(""+but2);
                 button_2.setText(""+but3); button_3.setText(""+but4);
-                lblHI.setText(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
+                System.out.println(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
+                //lblHI.setText(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
             }
         });
         mnNewGame.add(mntmEasy);
@@ -91,7 +91,8 @@ public class GUI extends JFrame {
                 enableButtons();
                 button.setText(""+but1); button_1.setText(""+but2);
                 button_2.setText(""+but3); button_3.setText(""+but4);
-                lblHI.setText(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
+                System.out.println(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
+                //lblHI.setText(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
                 but1=0;but2=0;but3=0;but4=0;
             }
         });
@@ -104,7 +105,8 @@ public class GUI extends JFrame {
                 enableButtons();
                 button.setText(""+but1); button_1.setText(""+but2);
                 button_2.setText(""+but3); button_3.setText(""+but4);
-                lblHI.setText(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
+                System.out.println(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
+                //lblHI.setText(game.combo.get(0)+" - "+game.combo.get(1)+" - "+game.combo.get(2)+" - "+game.combo.get(3));
                 but1=0;but2=0;but3=0;but4=0;
             }
         });
@@ -209,4 +211,3 @@ public class GUI extends JFrame {
         verticalBox.add(lblHI);
     }
 }
-
