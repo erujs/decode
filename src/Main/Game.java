@@ -83,7 +83,6 @@ public class Game {
         }
     }
 
-
     /** Determines if player's guess was correct. */
     public boolean isCorrect(ArrayList<Integer> guess, ArrayList<Integer> pattern) {
         return (guess.get(0) == pattern.get(0)) && (guess.get(1) == pattern.get(1))
