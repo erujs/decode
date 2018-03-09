@@ -2,7 +2,7 @@ package Main;
 
 import java.util.ArrayList;
 /**
- * Created by Eru on 3/19/2017.
+ * Created by Eru on 3/19/2016.
  */
 public class Game {
     public int difficulty,stop,attempt,range;
@@ -40,7 +40,7 @@ public class Game {
                 combo.add((int)(Math.random() * highest));
             }
         }
-        //   System.out.println(" Combo contaisn " + combo);
+           System.out.println(" Combo contains" + combo);
         return combo;
     }
     /** Determine the difficulty level of the game. */
@@ -61,14 +61,12 @@ public class Game {
             return 15;
         }
     }
-    /** Provides the player with hints after each of their guess. "X" means a number
-     * matches the combination and is in the correct position. "x" means a number
-     * matches the combination and is in the wrong position. "-" means the number
-     * is not found within the combination.
+    /** Provides the player with hints after each of their guess.
+     *  "X" means a number matches the combination and is in the correct position.
+     *  "x" means a number matches the combination and is in the wrong position.
+     *  "-" means the number is not found within the combination.
      */
     public void hint(ArrayList<Integer> guess, ArrayList<Integer> pattern) {
-        // Provides clues to player
-        // Gives 'X'
         for(int i = 0; i < pattern.size(); i++){
             clues[i]=null;
         }
