@@ -53,7 +53,7 @@ public class GUI extends JFrame {
     public GUI() {
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setBounds(100, 100, 375, 318);
+        setBounds(150, 150, 400, 400);
 
         JMenuBar menuBar = new JMenuBar();
         setJMenuBar(menuBar);
@@ -100,13 +100,6 @@ public class GUI extends JFrame {
         });
         mnNewGame.add(mntmHard);
 
-        JMenuItem mntmExit = new JMenuItem("Exit");
-        mntmExit.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent arg0) {
-                System.exit(0);
-            }
-        });
-        mnMenu.add(mntmExit);
         contentPane = new JPanel();
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         setContentPane(contentPane);

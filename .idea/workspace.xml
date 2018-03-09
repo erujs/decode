@@ -15,12 +15,10 @@
       <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="26" />
+            <state relative-caret-position="232">
+              <caret line="189" column="44" lean-forward="true" selection-start-line="189" selection-start-column="44" selection-end-line="189" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3338#3339#0" expanded="true" />
-                <element signature="e#3384#3385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,6 +53,7 @@
       <find>lblHI</find>
       <find>button_1</find>
       <find>exit</find>
+      <find>mntmExit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +69,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/MM.java" />
         <option value="$PROJECT_DIR$/src/MasterMind/MM.java" />
-        <option value="$PROJECT_DIR$/src/Main/GUI.java" />
         <option value="$PROJECT_DIR$/src/Main/Game.java" />
+        <option value="$PROJECT_DIR$/src/Main/GUI.java" />
       </list>
     </option>
   </component>
@@ -335,8 +334,6 @@
           <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3384#3385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -355,8 +352,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3384#3385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -375,8 +370,6 @@
           <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3384#3385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -395,8 +388,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3384#3385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,8 +406,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3384#3385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -467,12 +456,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="26" />
+        <state relative-caret-position="232">
+          <caret line="189" column="44" lean-forward="true" selection-start-line="189" selection-start-column="44" selection-end-line="189" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3384#3385#0" expanded="true" />
           </folding>
         </state>
       </provider>
