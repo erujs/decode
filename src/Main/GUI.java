@@ -53,7 +53,7 @@ public class GUI extends JFrame {
     public GUI() {
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setBounds(150, 150, 400, 400);
+        setBounds(100, 100, 400, 400);
 
         JMenuBar menuBar = new JMenuBar();
         setJMenuBar(menuBar);
@@ -188,7 +188,7 @@ public class GUI extends JFrame {
         contentPane.add(verticalBox);
 
         lblHI = new JLabel("H - I - N - T");
-        lblHI.setFont(new Font("Century Gothic", Font.BOLD, 58));
+        lblHI.setFont(new Font("Century Gothic", Font.BOLD, 60));
         verticalBox.add(lblHI);
     }
 }
