@@ -188,7 +188,7 @@ public class GUI extends JFrame {
         contentPane.add(verticalBox);
 
         lblHI = new JLabel("H - I - N - T");
-        lblHI.setFont(new Font("Century Gothic", Font.BOLD, 60));
+        lblHI.setFont(new Font("Century Gothic", Font.BOLD, 61));
         verticalBox.add(lblHI);
     }
 }
