@@ -22,19 +22,6 @@ public class GUI extends JFrame {
     private JLabel lblHI;
     private int but1=0,but2=0,but3=0,but4=0;
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    GUI frame = new GUI();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
     public void disableButtons(){
         button.setEnabled(false);
         button_1.setEnabled(false);
@@ -64,29 +51,29 @@ public class GUI extends JFrame {
         JMenu mnNewGame = new JMenu("New Game");
         mnMenu.add(mnNewGame);
 
-        JMenuItem mntmEasy = new JMenuItem("Easy");
-        mntmEasy.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent arg0) {
-                game=new Game(1);
-                but1=0;but2=0;but3=0;but4=0;
-                enableButtons();
-                button.setText(""+but1); button_1.setText(""+but2);
-                button_2.setText(""+but3); button_3.setText(""+but4);
-            }
-        });
-        mnNewGame.add(mntmEasy);
-
-        JMenuItem mntmMedium = new JMenuItem("Medium");
-        mntmMedium.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                game=new Game(2);
-                enableButtons();
-                button.setText(""+but1); button_1.setText(""+but2);
-                button_2.setText(""+but3); button_3.setText(""+but4);
-                but1=0;but2=0;but3=0;but4=0;
-            }
-        });
-        mnNewGame.add(mntmMedium);
+//        JMenuItem mntmEasy = new JMenuItem("Easy");
+//        mntmEasy.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent arg0) {
+//                game=new Game(1);
+//                but1=0;but2=0;but3=0;but4=0;
+//                enableButtons();
+//                button.setText(""+but1); button_1.setText(""+but2);
+//                button_2.setText(""+but3); button_3.setText(""+but4);
+//            }
+//        });
+//        mnNewGame.add(mntmEasy);
+//
+//        JMenuItem mntmMedium = new JMenuItem("Medium");
+//        mntmMedium.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent e) {
+//                game=new Game(2);
+//                enableButtons();
+//                button.setText(""+but1); button_1.setText(""+but2);
+//                button_2.setText(""+but3); button_3.setText(""+but4);
+//                but1=0;but2=0;but3=0;but4=0;
+//            }
+//        });
+//        mnNewGame.add(mntmMedium);
 
         JMenuItem mntmHard = new JMenuItem("Hard");
         mntmHard.addActionListener(new ActionListener() {
@@ -190,5 +177,18 @@ public class GUI extends JFrame {
         lblHI = new JLabel("H - I - N - T");
         lblHI.setFont(new Font("Century Gothic", Font.BOLD, 61));
         verticalBox.add(lblHI);
+    }
+
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    GUI frame = new GUI();
+                    frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 }
